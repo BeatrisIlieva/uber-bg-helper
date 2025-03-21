@@ -40,6 +40,8 @@ table {
 caption {
     margin-bottom: 1em;
     color: #01796f;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 
 td {
