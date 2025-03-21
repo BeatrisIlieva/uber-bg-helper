@@ -197,7 +197,7 @@ export const phrases = [
         Translation:
             'Не мога да отида там. Ще трябва да се върна без такса.',
         Bulgarian:
-            "Ай кан'т гоу деър. И уд хав ту към бак уитаут а феър.",
+            "Ай кан'т гоу деър. Ай уд хав ту към бак уитаут а феър.",
         English:
             "I can't go there. I would have to come back without a fare."
     },
@@ -225,5 +225,10 @@ export const phrases = [
         Translation: 'Приятен ден!',
         Bulgarian: 'Хав а найс дей!',
         English: 'Have a nice day!'
+    },
+    {
+        Translation: 'Благодаря и на Вас!',
+        Bulgarian: 'Тенк ю, ю ту!',
+        English: 'Thank you to you too!'
     }
 ];
