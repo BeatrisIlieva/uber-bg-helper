@@ -15,7 +15,7 @@ const phrases = [
         English: 'Good Evening'
     },
     {
-        Translation: 'Как сте?',
+        Translation: 'Как сте днес?',
         Bulgarian: 'Хау ар ю тъдай?',
         English: 'How are you today?'
     },
@@ -66,18 +66,13 @@ const phrases = [
     },
     {
         Translation: 'Ще отнеме около час да стигнем дотам.',
-        Bulgarian: 'Ит тейкс абоут уан ауър то гет деър.',
-        English: 'It takes about one hour to get there.'
-    },
-    {
-        Translation: 'Ще отнеме около час да стигнем дотам.',
-        Bulgarian: 'Ит тейкс абоут уан ауър то гет деър.',
-        English: 'It takes about one hour to get there.'
+        Bulgarian: 'Ит тейкс абоут уан ауър то гоу деър.',
+        English: 'It takes about one hour to go there.'
     },
     {
         Translation:
             'За извънградски превози се заплаща винетна такса.',
-        Bulgarian: 'Фор оут ъф таун трипс, а виньет фии ис рикуаърд.',
+        Bulgarian: 'Фор оут ъф таун трипс, а виньет фий ис рикуаърд.',
         English: 'For out-of-town trips, a vignette fee is required.'
     },
     {
@@ -97,17 +92,17 @@ const phrases = [
     },
     {
         Translation: 'Ще сложа багажа Ви в багажника.',
-        Bulgarian: "А' път йор лагидж ин дъ трънк.",
+        Bulgarian: "Ай'л път йор лагидж ин дъ трънк.",
         English: "I'll put your luggage in the trunk."
     },
     {
         Translation: 'Сложете си колана.',
-        Bulgarian: 'Път он йор сийт белт, плийс.',
+        Bulgarian: 'Пут он йор сийт белт, плийс.',
         English: 'Put on your seat belt, please.'
     },
     {
         Translation: 'Имате ли против да отворя прозореца?',
-        Bulgarian: 'Из ит окей иф ай оупън дъ уиндоу?',
+        Bulgarian: 'Из ит окей иф ай оупън ъ уиндоу?',
         English: 'Is it okay if I open a window?'
     },
     {
@@ -144,7 +139,7 @@ const phrases = [
         Translation:
             'Там има голям трафик. Ще стигнем по-бързо ако минем оттук.',
         Bulgarian:
-            "Дъ трафик ис бад оувър хиър. Уи'л гет деър фастер иф уи го фром хиър.",
+            "Дъ трафик ис бад оувър деър. Уи'л гет деър фастер иф уи го фром хиър.",
         English:
             "The traffic is bad over there. We'll get there faster if we go from here."
     },
@@ -160,7 +155,7 @@ const phrases = [
     },
     {
         Translation: 'Цената е 30лв.',
-        Bulgarian: 'Тхъ тотал прайс ис търти лев.',
+        Bulgarian: 'Дъ тотал прайс ис търти лев.',
         English: 'The total price is 30lv.'
     },
     {
@@ -170,12 +165,12 @@ const phrases = [
     },
     {
         Translation: 'Имате ли по-дребни?',
-        Bulgarian: 'Ду ю хав смолър ноутс',
+        Bulgarian: 'Ду ю хав смолър ноутс?',
         English: 'Do you have smaller notes?'
     },
     {
         Translation: 'Не мога да Ви върна ресто.',
-        Bulgarian: "Ай дон'т хав ени чейндж",
+        Bulgarian: "Ай дон'т хав ени чейндж.",
         English: "I don't have any change."
     },
     {
@@ -202,7 +197,7 @@ const phrases = [
         Translation:
             'Не мога да отида там. Ще трябва да се върна без такса.',
         Bulgarian:
-            "Ай кан'т гоу деър. И уд хав то към бак уитаут а феър.",
+            "Ай кан'т гоу деър. И уд хав ту към бак уитаут а феър.",
         English:
             "I can't go there. I would have to come back without a fare."
     },

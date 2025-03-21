@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
 *,
 *::before,
 *::after,
@@ -19,24 +14,25 @@ blockquote {
 }
 
 html {
-    font: 16px / 1.5 'Arial', sans-serif;
+    box-sizing: border-box;
     color: #000;
     font-weight: 700;
+    font: clamp(16px, 10px + 0.45dvw, 20px) / 1.5 Arial, sans-serif;
 }
 
 body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    padding: 2em;
     justify-content: center;
     align-items: center;
 }
 
 main {
     flex-grow: 1;
-    max-width: 700px;
-
+    /* max-width: 700px; */
+    padding: 2em
+        clamp(2dvh, calc((100dvw - 700px) / 2), calc(100dvw / 2));
 }
 
 table {
