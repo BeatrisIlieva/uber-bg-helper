@@ -16,7 +16,6 @@ blockquote {
 html {
     box-sizing: border-box;
     color: #000;
-    font-weight: 700;
     font: clamp(16px, 10px + 0.45dvw, 20px) / 1.5 Arial, sans-serif;
 }
 
@@ -30,9 +29,7 @@ body {
 
 main {
     flex-grow: 1;
-    /* max-width: 700px; */
-    padding: 2em
-        clamp(2dvh, calc((100dvw - 700px) / 2), calc(100dvw / 2));
+    padding: 2em 1em;
 }
 
 table {
@@ -58,12 +55,48 @@ tbody > tr td:nth-child(1) {
     color: #00308f;
 }
 
+tbody > tr td:nth-child(4) {
+    color: #464545;
+}
+
+tbody > tr td:nth-child(1),
+tbody > tr td:nth-child(2),
+tbody > tr td:nth-child(3),
+tbody > tr td:nth-child(4),
+tbody > tr td:nth-child(5) {
+    font-weight: 700;
+}
+
 tbody > tr td:nth-child(2) {
     color: #006241;
 }
 
+tbody > tr td:nth-child(2),
+tbody > tr td:nth-child(3),
 tbody > tr td:nth-child(4) {
-    font-weight: 500;
+    position: relative;
+}
+
+tbody > tr td:nth-child(2)::after,
+tbody > tr td:nth-child(3)::after,
+tbody > tr td:nth-child(4)::after {
+    position: absolute;
+    bottom: 0;
+    right: 0.2em;
+    color: rgb(140 140 140);
+    font-size: 0.7em;
+}
+
+tbody > tr td:nth-child(2)::after {
+    content: 'Bulgarian';
+}
+
+tbody > tr td:nth-child(3)::after {
+    content: 'Pronunciation/Произношение';
+}
+
+tbody > tr td:nth-child(4)::after {
+    content: 'English';
 }
 
 button {
@@ -72,7 +105,13 @@ button {
     color: #fff;
     border-radius: 0.3em;
     border: none;
-    font-weight: 700;
     cursor: pointer;
-    margin-left: auto;
+    font-weight: 700;
+}
+
+@media (max-width: 620px) {
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
 }
