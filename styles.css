@@ -55,10 +55,6 @@ tbody > tr td:nth-child(1) {
     color: #00308f;
 }
 
-tbody > tr td:nth-child(4) {
-    color: #464545;
-}
-
 tbody > tr td:nth-child(1),
 tbody > tr td:nth-child(2),
 tbody > tr td:nth-child(3),
@@ -69,6 +65,15 @@ tbody > tr td:nth-child(5) {
 
 tbody > tr td:nth-child(2) {
     color: #006241;
+}
+
+tbody > tr td:nth-child(4) {
+    color: #aa0000;
+    font-weight: 500;
+}
+
+tbody > tr td:nth-child(3) {
+    font-weight: 600;
 }
 
 tbody > tr td:nth-child(2),
