@@ -592,9 +592,9 @@ export const phrases = [
         English: 'Pretty good.'
     },
     {
-        Translation: 'Не толкова чудесно.',
-        Bulgarian: 'Нот соу грейт.',
-        English: 'Not so great.'
+        Translation: 'Не толкова добре.',
+        Bulgarian: 'Нот соу гууд.',
+        English: 'Not so good.'
     },
     {
         Translation: 'Може да е по-добре.',
