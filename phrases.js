@@ -380,5 +380,40 @@ export const phrases = [
         Translation: 'Преценявам, че ще пристигнем на вашата дестинация след около 20 минути.',
         Bulgarian: 'Ай естимейт дат уил арайв ат йор дестинейшън ин абаут туенти минитс.',
         English: 'I estimate that we`ll arrive at your destination in about 20 minutes.'
-    }
+    },
+    {
+        Translation: 'Пътен полицай ни насочва да поемем по друг маршрут.',
+        Bulgarian: 'Ъ чрафик офисър ис дайректинг ъс ту тейк ъ дифрънт раут.',
+        English: 'A traffic officer is directing us to take a different route.'
+    },
+    {
+        Translation: 'Моля, не бързайте при излизане, за да избегнете риск от нараняване.',
+        Bulgarian: 'Плийс тейк йор тайм уен егзитинг ту авойд ени риск ъф инджъри.',
+        English: 'Please, take your time when exiting to avoid any risk of injury.'
+    },
+    {
+        Translation: 'Приложението автоматично ще изчисли цената накрая.',
+        Bulgarian: 'Ди ап уйл аутоматикали калкюлейт ди феър ат ди енд.',
+        English: 'The app will automatically calculate the fare at the end.'
+    },
+    {
+        Translation: 'Можете да платите в брой, с карта или чрез приложението.',
+        Bulgarian: 'Ю кен пей юзинг каш, кард, ор тру ди ап.',
+        English: 'You can pay using cash, card, or through the app.'
+    },
+    {
+        Translation: 'Бихте ли искали касова бележка за таксата?',
+        Bulgarian: 'Уд ю лайк ъ рисит фор дъ феър?',
+        English: 'Would you like a receipt for the fare?'
+    },
+    {
+        Translation: 'Здрасти, аз съм Стефан. А ти?',
+        Bulgarian: 'Хай! Ай ем Стивън. Анд ю?',
+        English: 'Hi! I am Stephen. And you?'
+    },
+    {
+        Translation: 'Приятно ми е да се запознаем',
+        Bulgarian: 'Найс ту мийт ю.',
+        English: 'Nice to meet you.'
+    },
 ];
