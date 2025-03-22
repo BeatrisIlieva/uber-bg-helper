@@ -116,7 +116,7 @@ export const phrases = [
         English: "Please don't eat in the car."
     },
     {
-        Translation: 'Моля пушете в колата.',
+        Translation: 'Моля не пушете в колата.',
         Bulgarian: 'Но смоукийнг, плийс.',
         English: 'No smoking, please.'
     },
