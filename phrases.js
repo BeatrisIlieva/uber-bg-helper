@@ -540,5 +540,60 @@ export const phrases = [
         Translation: 'Извинете, говорите ли английски?',
         Bulgarian: 'Екскюзми, ду ю спийк Инглиш?',
         English: 'Excuse me, do you speak English?'
-    }
+    },
+    {
+        Translation: 'Прибирам се.',
+        Bulgarian: 'Айм хеадинг хоум.',
+        English: 'I`m heading home.'
+    },
+    {
+        Translation: 'Имате ли против да пуша?',
+        Bulgarian: 'До ю майнд иф Ай смоук?',
+        English: 'Do you mind if I smoke?'
+    },
+    {
+        Translation: 'Наистина го оценявам.',
+        Bulgarian: 'Ай рийли апрешиейт ит.',
+        English: 'I really appreciate it.'
+    },
+    {
+        Translation: 'Това наистина е мило от Ваша страна!',
+        Bulgarian: 'Датс рийли найс ъф ю!',
+        English: 'That`s really nice of you!'
+    },
+    {
+        Translation: 'Съжалявам да чуя това.',
+        Bulgarian: 'Айм сори ту хиър дат.',
+        English: 'I`m sorry to hear that.'
+    },
+    {
+        Translation: 'Моля, напишете го.',
+        Bulgarian: 'Плийс райт ит даун.',
+        English: 'Please write it down.'
+    },
+    {
+        Translation: 'Имайте приятен уикенд!',
+        Bulgarian: 'Хав ъ гууд уикенд!',
+        English: 'Have a good weekend!'
+    },
+    {
+        Translation: 'Не се притеснявайте за това.',
+        Bulgarian: 'Донт уори абоут ит.',
+        English: 'Don`t worry about it.'
+    },
+    {
+        Translation: 'Добре съм, благодаря. Ами Вие?',
+        Bulgarian: 'Айм файн, тенкс. Хау абоут ю?',
+        English: 'I`m fine, thanks. How about you?'
+    },
+    {
+        Translation: 'Доста добре.',
+        Bulgarian: 'Прити гуд.',
+        English: 'Pretty good.'
+    },
+    {
+        Translation: 'Не толкова добре.',
+        Bulgarian: 'Нот соу гууд.',
+        English: 'Not so great.'
+    },
 ];
