@@ -184,7 +184,7 @@ export const phrases = [
         English: "It's been nice chatting with you."
     },
     {
-        Translation: 'Приатно прекарване в София.',
+        Translation: 'Приятно прекарване в София.',
         Bulgarian: 'Инждой йор стей ин Софиа.',
         English: 'Enjoy your stay in Sofia.'
     },
@@ -337,14 +337,20 @@ export const phrases = [
         English: 'Would you like me to adjust the air-conditioning?'
     },
     {
-        Translation: 'Харесва ли Ви музиката или бихте искали да я промяна?',
-        Bulgarian: 'Из дис мюзик окей фор ю ор уд ю лайк ми то чейндж ит?',
-        English: 'Is this music okay for you or would you like me to change it?'
+        Translation:
+            'Харесва ли Ви музиката или бихте искали да я промяна?',
+        Bulgarian:
+            'Из дис мюзик окей фор ю ор уд ю лайк ми то чейндж ит?',
+        English:
+            'Is this music okay for you or would you like me to change it?'
     },
     {
-        Translation: 'В момента следвам GPS, но ако знаете по-добър път, моля напътствайте ме.',
-        Bulgarian: 'Ай ем кърънтли фолоуинг дъ GPS бът иф ю ноу ъ бетър раут, плийс гайд ми.',
-        English: 'I am currently following the GPS but if you know a better route, please guide me.'
+        Translation:
+            'В момента следвам GPS, но ако знаете по-добър път, моля напътствайте ме.',
+        Bulgarian:
+            'Ай ем кърънтли фолоуинг дъ GPS бът иф ю ноу ъ бетър раут, плийс гайд ми.',
+        English:
+            'I am currently following the GPS but if you know a better route, please guide me.'
     },
     {
         Translation: 'Бихте ли искали да мина по най-бързия път?',
@@ -352,12 +358,16 @@ export const phrases = [
         English: 'Would you like me to take the quickest route?'
     },
     {
-        Translation: 'Има задръстване напред, желаете ли да поема по алтернативен маршрут?',
-        Bulgarian: 'Деърс чрафик ахед, уд ю лайк ми то тейк ън алтърнатив раут?',
-        English: 'Threre`s traffic ahead, would you like me to take an alternative route?'
+        Translation:
+            'Има задръстване напред, желаете ли да поема по алтернативен маршрут?',
+        Bulgarian:
+            'Деърс чрафик ахед, уд ю лайк ми то тейк ън алтърнатив раут?',
+        English:
+            'Threre`s traffic ahead, would you like me to take an alternative route?'
     },
     {
-        Translation: 'Да мина ли по прекия път, за да ни спестя време?',
+        Translation:
+            'Да мина ли по прекия път, за да ни спестя време?',
         Bulgarian: 'Шуд ай тейк дъ шорткът ту сейв ъс съм тайм?',
         English: 'Should I take the shortcut to save us some time?'
     },
@@ -367,37 +377,56 @@ export const phrases = [
         English: 'This route is usually the fastest.'
     },
     {
-        Translation: 'Има пътни ремонти напред, но ще намеря по-добър маршрут, ако е възможно.',
-        Bulgarian: 'Деър ар съм роудуъркс ахед бът айл файнд ъ бетър раут иф посъбъл.',
-        English: 'There are some roadworks ahead, but I`ll find a better route if possible.'
+        Translation:
+            'Има пътни ремонти напред, но ще намеря по-добър маршрут, ако е възможно.',
+        Bulgarian:
+            'Деър ар съм роудуъркс ахед бът айл файнд ъ бетър раут иф посъбъл.',
+        English:
+            'There are some roadworks ahead, but I`ll find a better route if possible.'
     },
     {
-        Translation: 'За съжаление, инцидент напред причинява забавяне.',
-        Bulgarian: 'Ънфорчънатли, ън аксидент ъп ахед ис козинг ъ дилей.',
-        English: 'Unfortunately, an accident up ahead is causing a delay.'
+        Translation:
+            'За съжаление, инцидент напред причинява забавяне.',
+        Bulgarian:
+            'Ънфорчънатли, ън аксидент ъп ахед ис козинг ъ дилей.',
+        English:
+            'Unfortunately, an accident up ahead is causing a delay.'
     },
     {
-        Translation: 'Преценявам, че ще пристигнем на вашата дестинация след около 20 минути.',
-        Bulgarian: 'Ай естимейт дат уил арайв ат йор дестинейшън ин абаут туенти минитс.',
-        English: 'I estimate that we`ll arrive at your destination in about 20 minutes.'
+        Translation:
+            'Преценявам, че ще пристигнем на вашата дестинация след около 20 минути.',
+        Bulgarian:
+            'Ай естимейт дат уил арайв ат йор дестинейшън ин абаут туенти минитс.',
+        English:
+            'I estimate that we`ll arrive at your destination in about 20 minutes.'
     },
     {
-        Translation: 'Пътен полицай ни насочва да поемем по друг маршрут.',
-        Bulgarian: 'Ъ чрафик офисър ис дайректинг ъс ту тейк ъ дифрънт раут.',
-        English: 'A traffic officer is directing us to take a different route.'
+        Translation:
+            'Пътен полицай ни насочва да поемем по друг маршрут.',
+        Bulgarian:
+            'Ъ чрафик офисър ис дайректинг ъс ту тейк ъ дифрънт раут.',
+        English:
+            'A traffic officer is directing us to take a different route.'
     },
     {
-        Translation: 'Моля, не бързайте при излизане, за да избегнете риск от нараняване.',
-        Bulgarian: 'Плийс тейк йор тайм уен егзитинг ту авойд ени риск ъф инджъри.',
-        English: 'Please, take your time when exiting to avoid any risk of injury.'
+        Translation:
+            'Моля, не бързайте при излизане, за да избегнете риск от нараняване.',
+        Bulgarian:
+            'Плийс тейк йор тайм уен егзитинг ту авойд ени риск ъф инджъри.',
+        English:
+            'Please, take your time when exiting to avoid any risk of injury.'
     },
     {
-        Translation: 'Приложението автоматично ще изчисли цената накрая.',
-        Bulgarian: 'Ди ап уйл аутоматикали калкюлейт ди феър ат ди енд.',
-        English: 'The app will automatically calculate the fare at the end.'
+        Translation:
+            'Приложението автоматично ще изчисли цената накрая.',
+        Bulgarian:
+            'Ди ап уйл аутоматикали калкюлейт ди феър ат ди енд.',
+        English:
+            'The app will automatically calculate the fare at the end.'
     },
     {
-        Translation: 'Можете да платите в брой, с карта или чрез приложението.',
+        Translation:
+            'Можете да платите в брой, с карта или чрез приложението.',
         Bulgarian: 'Ю кен пей юзинг каш, кард, ор тру ди ап.',
         English: 'You can pay using cash, card, or through the app.'
     },
@@ -437,7 +466,8 @@ export const phrases = [
         English: 'What do you do?'
     },
     {
-        Translation: 'Какво обичате да правите през свободното си време?',
+        Translation:
+            'Какво обичате да правите през свободното си време?',
         Bulgarian: 'Уот ду ю лайк ту ду ин йор фрий тайм?',
         English: 'What do you like to do in your free time?'
     },
@@ -451,4 +481,64 @@ export const phrases = [
         Bulgarian: 'Екскюзми.',
         English: 'Excuse me.'
     },
+    {
+        Translation: 'Съжалявам.',
+        Bulgarian: 'Ай ем сори.',
+        English: 'I am sorry.'
+    },
+    {
+        Translation: 'Какво мислите?',
+        Bulgarian: 'Уот ду ю тинк?',
+        English: 'What do you think?'
+    },
+    {
+        Translation: 'Как Ви звучи това?',
+        Bulgarian: 'Хау даз дад саунд',
+        English: 'How does that sound?'
+    },
+    {
+        Translation: 'Това звучи чудесно.',
+        Bulgarian: 'Дат саундс грейт.',
+        English: 'That sounds great.'
+    },
+    {
+        Translation: 'Понастоящем уча английски.',
+        Bulgarian: 'Ай ем лърнинг Инглиш.',
+        English: 'I am learning English.'
+    },
+    {
+        Translation: 'Може ли да повторите това отново?',
+        Bulgarian: 'Кудж ю рипийт дат плийс?',
+        English: 'Could you repeat that please?'
+    },
+    {
+        Translation: 'Може ли да говорите по-бавно?',
+        Bulgarian: 'Кудж ю плийс толк слоуър?',
+        English: 'Could you please talk slower?'
+    },
+    {
+        Translation: 'Какво означава това?',
+        Bulgarian: 'Уот даз дат мийн?',
+        English: 'What does that mean?'
+    },
+    {
+        Translation: 'Какво имате предвид?',
+        Bulgarian: 'Уот ду ю мийн?',
+        English: 'What do you mean?'
+    },
+    {
+        Translation: 'Колко струва това?',
+        Bulgarian: 'Хау мъч даз дис кост?',
+        English: 'How much does this cost?'
+    },
+    {
+        Translation: 'Всичко е наред.',
+        Bulgarian: 'Датс окей.',
+        English: 'That’s okay.'
+    },
+    {
+        Translation: 'Извинете, говорите ли английски?',
+        Bulgarian: 'Екскюзми, ду ю спийк Инглиш?',
+        English: 'Excuse me, do you speak English?'
+    }
 ];
