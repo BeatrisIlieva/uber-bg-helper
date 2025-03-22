@@ -412,8 +412,43 @@ export const phrases = [
         English: 'Hi! I am Stephen. And you?'
     },
     {
-        Translation: 'Приятно ми е да се запознаем',
+        Translation: 'Приятно ми е да се запознаем.',
         Bulgarian: 'Найс ту мийт ю.',
         English: 'Nice to meet you.'
+    },
+    {
+        Translation: 'На мен също ми е приятно да се запознаем.',
+        Bulgarian: 'Найс ту мийт ю ту.',
+        English: 'Nice to meet you too.'
+    },
+    {
+        Translation: 'Откъде сте?',
+        Bulgarian: 'Уеър ар ю фром?',
+        English: 'Where are you from?'
+    },
+    {
+        Translation: 'Аз съм от София.',
+        Bulgarian: 'Ай ем фром Софиа.',
+        English: 'I am from Sofia.'
+    },
+    {
+        Translation: 'Какво работите?',
+        Bulgarian: 'Уот ду ю ду?',
+        English: 'What do you do?'
+    },
+    {
+        Translation: 'Какво обичате да правите през свободното си време?',
+        Bulgarian: 'Уот ду ю лайк ту ду ин йор фрий тайм?',
+        English: 'What do you like to do in your free time?'
+    },
+    {
+        Translation: 'Много благодаря!',
+        Bulgarian: 'Тенкс соу мъч.',
+        English: 'Thanks so much!'
+    },
+    {
+        Translation: 'Извинете ме.',
+        Bulgarian: 'Екскюзми.',
+        English: 'Excuse me.'
     },
 ];
