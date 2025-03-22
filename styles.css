@@ -16,7 +16,7 @@ blockquote {
 html {
     box-sizing: border-box;
     color: #000;
-    font: clamp(16px, 10px + 0.45dvw, 20px) / 1.5 Arial, sans-serif;
+    font: 19px / 1.5 Arial, sans-serif;
 }
 
 body {

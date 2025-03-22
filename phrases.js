@@ -218,7 +218,7 @@ export const phrases = [
     },
     {
         Translation: 'Дълго ли ще останете?',
-        Bulgarian: 'Ар ю стеййнг лонг?',
+        Bulgarian: 'Ар ю стейнг лонг?',
         English: 'Are you staying long?'
     },
     {
