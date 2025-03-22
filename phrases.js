@@ -592,8 +592,8 @@ export const phrases = [
         English: 'Pretty good.'
     },
     {
-        Translation: 'Не толкова добре.',
-        Bulgarian: 'Нот соу гууд.',
+        Translation: 'Не толкова чудесно.',
+        Bulgarian: 'Нот соу грейт.',
         English: 'Not so great.'
     },
     {
@@ -631,5 +631,4 @@ export const phrases = [
         Bulgarian: 'Уот тайм из ит?',
         English: 'What time is it?'
     }
-    
 ];
