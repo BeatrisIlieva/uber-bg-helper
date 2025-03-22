@@ -1,4 +1,4 @@
-import { phrases } from './phrases.js';
+import { phrases, dictionary } from './phrases.js';
 
 const tbodyElement = document.querySelector('tbody');
 
@@ -12,8 +12,20 @@ phrases.forEach((phrase, index) => {
     const bulgarianTdElement = document.createElement('td');
     bulgarianTdElement.textContent = phrase.Bulgarian;
 
+    const fragment = document.createDocumentFragment();
+
+    phrase.English.split(' ').forEach(word => {
+        const spanElement = document.createElement('span');
+        spanElement.addEventListener('click', e =>
+            showTranslationHandler(e, word)
+        );
+        spanElement.textContent = word;
+
+        fragment.append(spanElement);
+    });
+
     const englishTdElement = document.createElement('td');
-    englishTdElement.textContent = phrase.English;
+    englishTdElement.append(fragment);
 
     const audioElement = document.createElement('audio');
     audioElement.setAttribute('id', index);
@@ -45,4 +57,38 @@ phrases.forEach((phrase, index) => {
 function clickHandler(index) {
     const audio = document.getElementById(index);
     audio.play();
+}
+
+function showTranslationHandler(e, word) {
+    const previousMarkedElement = document.querySelector('.marked');
+
+    if (previousMarkedElement) {
+        previousMarkedElement.classList.remove('marked');
+        document.querySelector('.translation').remove();
+    }
+
+    e.target.classList.add('marked');
+    word = word.replace('?', '');
+    word = word.replace('!', '');
+    word = word.replace('.', '');
+    word = word.replace(',', '');
+
+    const translation = dictionary[word.toLowerCase()];
+
+    const translationSpanElement = document.createElement('span');
+    translationSpanElement.classList.add('translation');
+    translationSpanElement.addEventListener('click', unMarkHandler);
+    translationSpanElement.textContent = translation;
+
+    const tdElement = e.target.closest('td');
+    tdElement.append(translationSpanElement);
+
+    console.log(translation);
+}
+
+function unMarkHandler() {
+    const previousMarkedElement = document.querySelector('.marked');
+
+    previousMarkedElement.classList.remove('marked');
+    document.querySelector('.translation').remove();
 }

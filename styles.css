@@ -22,7 +22,6 @@ html {
 body {
     min-height: 100dvh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -49,6 +48,7 @@ td {
     padding: 1em;
     vertical-align: top;
     text-align: left;
+    height: 8em;
 }
 
 tbody > tr:nth-of-type(even) {
@@ -73,6 +73,19 @@ tbody > tr td:nth-child(2) {
 
 tbody > tr td:nth-child(4) {
     color: #662d91;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5em;
+    border-width: 0;
+    border: none;
+}
+
+tbody > tr:not(:last-child) td:nth-child(4) {
+    border-bottom: 0.08em solid rgb(160 160 160);
+}
+
+tbody > tr td:nth-child(4) span {
+    width: fit-content;
 }
 
 tbody > tr td:nth-child(3) {
@@ -115,6 +128,24 @@ button {
     border: none;
     cursor: pointer;
     font-weight: 700;
+}
+
+.marked {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+.translation {
+    position: absolute;
+    left: 0.25em;
+    bottom: 100%;
+    color: #ff8c00;
+    z-index: 2;
+    background-color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
 }
 
 @media (max-width: 620px) {

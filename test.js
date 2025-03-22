@@ -1,4 +1,4 @@
-export const phrases = [
+const phrases = [
     {
         Translation: 'Добро Утро',
         Bulgarian: 'Гууд Морнинг',
@@ -313,7 +313,7 @@ export const phrases = [
         Bulgarian:
             'Кен ю кънфърм ди аджрес ю пръвайдед? Ай джъст уонт ту би шуър итс кърект.',
         English:
-            "Can you confirm the address you provided? I just want to be sure it's correct."
+            "Can you confirm the address you proveded? I just want to be sure it's correct."
     },
     {
         Translation:
@@ -633,9 +633,40 @@ export const phrases = [
     }
 ];
 
-export const dictionary = {
+const sentences = phrases.map(obj => obj.English);
+// console.log(sentences);
+const allWords = [];
+
+for (const sentence of sentences) {
+    let words = sentence.split(' ');
+
+    words.forEach(word => {
+        word = word.replace('?', '');
+        word = word.replace('!', '');
+        word = word.replace('.', '');
+        word = word.replace(',', '');
+
+        allWords.push(word);
+    });
+}
+
+// console.log(allWords);
+
+const uniqueWords = new Set(allWords);
+console.log(uniqueWords);
+
+const wordsDictionary = {};
+uniqueWords.forEach(word => {
+    if (isNaN(Number(word))) {
+        wordsDictionary[word.toLowerCase()] = '';
+    }
+});
+
+console.log(wordsDictionary);
+
+const dictionary = {
     good: 'добре',
-    morning: 'сутрин',
+    morning: 'сутринг',
     afternoon: 'следобед',
     evening: 'вечер',
     how: 'как',
@@ -887,6 +918,5 @@ export const dictionary = {
     complain: 'оплаквам се',
     my: 'моят',
     pleasure: 'удоволствие',
-    idea: 'идея',
-    drop: 'падам'
+    idea: 'идея'
 };
