@@ -244,7 +244,7 @@ export const phrases = [
     {
         Translation: 'Надявам се, че сте добре днес.',
         Bulgarian: 'Ай хоуп юър дуинг уел тъдей.',
-        English: 'I hope you`re doing well today.'
+        English: "I hope you're doing well today."
     },
     {
         Translation:
@@ -259,7 +259,7 @@ export const phrases = [
     },
     {
         Translation:
-            'Наслаждавате ли се на прекараното досега време в Софиа?',
+            'Наслаждавате ли се на прекараното досега време в София?',
         Bulgarian: 'Ар ю инджоийнг йор тайм ин Софиа соу фар?',
         English: 'Are you enjoying your time in Sofia so far?'
     },
@@ -274,7 +274,7 @@ export const phrases = [
         Bulgarian:
             'Айв джъст арайвд ат дъ пикъп пойнт. Плийс, тейк йор тайм.',
         English:
-            'I`ve just arrived at the pickup point. Please, take your time.'
+            "I've just arrived at the pickup point. Please, take your time."
     },
     {
         Translation:
@@ -313,7 +313,7 @@ export const phrases = [
         Bulgarian:
             'Кен ю кънфърм ди аджрес ю пръвайдед? Ай джъст уонт ту би шуър итс кърект.',
         English:
-            'Can you confirm the address you proveded? I just want to be sure it`s correct.'
+            "Can you confirm the address you proveded? I just want to be sure it's correct."
     },
     {
         Translation:
@@ -321,7 +321,7 @@ export const phrases = [
         Bulgarian:
             'Айл чрай ту файнд ъ сейф анд  кънвиниънт плейс ту джроп ю оф.',
         English:
-            'I`ll try to find a safe and convenient place to drop you off.'
+            "I'll try to find a safe and convenient place to drop you off."
     },
     {
         Translation:
@@ -363,7 +363,7 @@ export const phrases = [
         Bulgarian:
             'Деърс чрафик ахед, уд ю лайк ми то тейк ън алтърнатив раут?',
         English:
-            'Threre`s traffic ahead, would you like me to take an alternative route?'
+            "Threre's traffic ahead, would you like me to take an alternative route?"
     },
     {
         Translation:
@@ -382,7 +382,7 @@ export const phrases = [
         Bulgarian:
             'Деър ар съм роудуъркс ахед бът айл файнд ъ бетър раут иф посъбъл.',
         English:
-            'There are some roadworks ahead, but I`ll find a better route if possible.'
+            "There are some roadworks ahead, but I'll find a better route if possible."
     },
     {
         Translation:
@@ -398,7 +398,7 @@ export const phrases = [
         Bulgarian:
             'Ай естимейт дат уил арайв ат йор дестинейшън ин абаут туенти минитс.',
         English:
-            'I estimate that we`ll arrive at your destination in about 20 minutes.'
+            "I estimate that we'll arrive at your destination in about 20 minutes."
     },
     {
         Translation:
@@ -544,7 +544,7 @@ export const phrases = [
     {
         Translation: 'Прибирам се.',
         Bulgarian: 'Айм хеадинг хоум.',
-        English: 'I`m heading home.'
+        English: "I'm heading home."
     },
     {
         Translation: 'Имате ли против да пуша?',
@@ -559,12 +559,12 @@ export const phrases = [
     {
         Translation: 'Това наистина е мило от Ваша страна!',
         Bulgarian: 'Датс рийли найс ъф ю!',
-        English: 'That`s really nice of you!'
+        English: "That's really nice of you!"
     },
     {
         Translation: 'Съжалявам да чуя това.',
         Bulgarian: 'Айм сори ту хиър дат.',
-        English: 'I`m sorry to hear that.'
+        English: "I'm sorry to hear that."
     },
     {
         Translation: 'Моля, напишете го.',
@@ -579,12 +579,12 @@ export const phrases = [
     {
         Translation: 'Не се притеснявайте за това.',
         Bulgarian: 'Донт уори абоут ит.',
-        English: 'Don`t worry about it.'
+        English: "Don't worry about it."
     },
     {
         Translation: 'Добре съм, благодаря. Ами Вие?',
         Bulgarian: 'Айм файн, тенкс. Хау абоут ю?',
-        English: 'I`m fine, thanks. How about you?'
+        English: "I'm fine, thanks. How about you?"
     },
     {
         Translation: 'Доста добре.',
@@ -596,4 +596,39 @@ export const phrases = [
         Bulgarian: 'Нот соу гууд.',
         English: 'Not so great.'
     },
+    {
+        Translation: 'Може да е по-добре.',
+        Bulgarian: 'Куд би бетър.',
+        English: 'Could be better.'
+    },
+    {
+        Translation: 'Не мога да се оплача.',
+        Bulgarian: 'Кант къмплейн.',
+        English: "Can't complain."
+    },
+    {
+        Translation: 'Удоволствието е мое.',
+        Bulgarian: 'Май плежър.',
+        English: 'My pleasure.'
+    },
+    {
+        Translation: 'Трябва да тръгвам.',
+        Bulgarian: 'Ай шуд гет гоинг.',
+        English: 'I should get going.'
+    },
+    {
+        Translation: 'Нямам идея.',
+        Bulgarian: 'Ай хав ноу айдиа.',
+        English: 'I have no idea.'
+    },
+    {
+        Translation: 'Не съм наистина сигурен.',
+        Bulgarian: 'Ам нот рийли шуър.',
+        English: "I'm not really sure."
+    },
+    {
+        Translation: 'Кое време е?',
+        Bulgarian: 'Уот тайм из ит?',
+        English: 'What time is it?'
+    }
 ];
