@@ -230,5 +230,155 @@ export const phrases = [
         Translation: 'Благодаря и на Вас!',
         Bulgarian: 'Тенк ю, ю ту!',
         English: 'Thank you to you too!'
+    },
+    {
+        Translation: 'Приятен ден!',
+        Bulgarian: 'Хав ъ найс дей!',
+        English: 'Have a nice day!'
+    },
+    {
+        Translation: 'Приятна вечер!',
+        Bulgarian: 'Хав ъ найс ивнинг!',
+        English: 'Have a nice evening!'
+    },
+    {
+        Translation: 'Надявам се, че сте добре днес.',
+        Bulgarian: 'Ай хоуп юър дуинг уел тъдей.',
+        English: 'I hope you`re doing well today.'
+    },
+    {
+        Translation:
+            'Как бихте сравнили този град с града, в който живеете?',
+        Bulgarian: 'Хау даз дис сити къмпеър ту йор хоум таун?',
+        English: 'How does this city compare to your home town?'
+    },
+    {
+        Translation: 'Опитвали ли сте вече някое тукашно ястие?',
+        Bulgarian: 'Хав ю чрайд ени лоукал дишис хиър йет?',
+        English: 'Have you tried any local dishes here yet?'
+    },
+    {
+        Translation:
+            'Наслаждавате ли се на прекараното досега време в Софиа?',
+        Bulgarian: 'Ар ю инджоийнг йор тайм ин Софиа соу фар?',
+        English: 'Are you enjoying your time in Sofia so far?'
+    },
+    {
+        Translation:
+            'Надявам се да се насладите на останалата част от деня.',
+        Bulgarian: 'Ай хоуп ю инждой дъ рест ъф йор дей.',
+        English: 'I hope you enjoy the rest of your day.'
+    },
+    {
+        Translation: 'Току-що пристигнах на мястото. Не бързайте.',
+        Bulgarian:
+            'Айв джъст арайвд ат дъ пикъп пойнт. Плийс, тейк йор тайм.',
+        English:
+            'I`ve just arrived at the pickup point. Please, take your time.'
+    },
+    {
+        Translation:
+            'Моля, потвърдете дали това е мястото от където трябва да Ви Взема.',
+
+        Bulgarian:
+            'Плийс лет ми ноу иф дис ис дъ райт лоукейшън фор пик ъп.',
+        English:
+            'Please let me know if this is the right location for pickup.'
+    },
+    {
+        Translation:
+            'Това място за слизане удобно ли е за Вас, или предпочитате друго място?',
+
+        Bulgarian:
+            'Из дис джроп-оф лоукейшън кънвиниънт фор ю, ор уд ю прифър ъ дифрънт спот?',
+        English:
+            'Is this drop-off location convenient for you, or would you prefer a different spot?'
+    },
+    {
+        Translation: 'Имате ли нужда от помощ с багажа?',
+        Bulgarian: 'Ду ю нийд ени асистънс уит йор лагидж?',
+        English: 'Do you need any assistance with your luggage?'
+    },
+    {
+        Translation:
+            'Ще спра колата колкото се може по-близо до вашето местоназначение.',
+        Bulgarian:
+            'Ай уил пул оувър ес клоуз ту йор дестънейшън ес посъбъл.',
+        English:
+            'I will pull over as close to your destination as possible.'
+    },
+    {
+        Translation:
+            'Може ли да потвърдите адреса, който сте предоставили. Просто искам да бъда сигурен, че е правилен.',
+        Bulgarian:
+            'Кен ю кънфърм ди аджрес ю пръвайдед? Ай джъст уонт ту би шуър итс кърект.',
+        English:
+            'Can you confirm the address you proveded? I just want to be sure it`s correct.'
+    },
+    {
+        Translation:
+            'Ще се опитам да намеря безопасно и удобно място, на което да Ви оставя.',
+        Bulgarian:
+            'Айл чрай ту файнд ъ сейф анд  кънвиниънт плейс ту джроп ю оф.',
+        English:
+            'I`ll try to find a safe and convenient place to drop you off.'
+    },
+    {
+        Translation:
+            'Позволете ми да Ви помогна да изнесете вещите си от колата.',
+        Bulgarian:
+            'Лет ми ассист ю ин тейкинг йор бълонгингс аут ъф дъ кар.',
+        English:
+            'Let me assist you in taking your belongings out of the car.'
+    },
+    {
+        Translation: 'Желаете ли да променя градусите на климатика?',
+        Bulgarian: 'Уд ю лайк ми ту аджуст ди еър-къндишънинг?',
+        English: 'Would you like me to adjust the air-conditioning?'
+    },
+    {
+        Translation: 'Харесва ли Ви музиката или бихте искали да я промяна?',
+        Bulgarian: 'Из дис мюзик окей фор ю ор уд ю лайк ми то чейндж ит?',
+        English: 'Is this music okay for you or would you like me to change it?'
+    },
+    {
+        Translation: 'В момента следвам GPS, но ако знаете по-добър път, моля напътствайте ме.',
+        Bulgarian: 'Ай ем кърънтли фолоуинг дъ GPS бът иф ю ноу ъ бетър раут, плийс гайд ми.',
+        English: 'I am currently following the GPS but if you know a better route, please guide me.'
+    },
+    {
+        Translation: 'Бихте ли искали да мина по най-бързия път?',
+        Bulgarian: 'Уд ю лайк ми то тейк дъ куикест раут?',
+        English: 'Would you like me to take the quickest route?'
+    },
+    {
+        Translation: 'Има задръстване напред, желаете ли да поема по алтернативен маршрут?',
+        Bulgarian: 'Деърс чрафик ахед, уд ю лайк ми то тейк ън алтърнатив раут?',
+        English: 'Threre`s traffic ahead, would you like me to take an alternative route?'
+    },
+    {
+        Translation: 'Да мина ли по прекия път, за да ни спестя време?',
+        Bulgarian: 'Шуд ай тейк дъ шорткът ту сейв ъс съм тайм?',
+        English: 'Should I take the shortcut to save us some time?'
+    },
+    {
+        Translation: 'Този път обикновено е най-бързият.',
+        Bulgarian: 'Дис раут ис южуали дъ фастест.',
+        English: 'This route is usually the fastest.'
+    },
+    {
+        Translation: 'Има пътни ремонти напред, но ще намеря по-добър маршрут, ако е възможно.',
+        Bulgarian: 'Деър ар съм роудуъркс ахед бът айл файнд ъ бетър раут иф посъбъл.',
+        English: 'There are some roadworks ahead, but I`ll find a better route if possible.'
+    },
+    {
+        Translation: 'За съжаление, инцидент напред причинява забавяне.',
+        Bulgarian: 'Ънфорчънатли, ън аксидент ъп ахед ис козинг ъ дилей.',
+        English: 'Unfortunately, an accident up ahead is causing a delay.'
+    },
+    {
+        Translation: 'Преценявам, че ще пристигнем на вашата дестинация след около 20 минути.',
+        Bulgarian: 'Ай естимейт дат уил арайв ат йор дестинейшън ин абаут туенти минитс.',
+        English: 'I estimate that we`ll arrive at your destination in about 20 minutes.'
     }
 ];
