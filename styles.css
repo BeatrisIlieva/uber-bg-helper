@@ -48,11 +48,11 @@ td {
     padding: 1em;
     vertical-align: top;
     text-align: left;
-    height: 8em;
 }
 
 tbody > tr:nth-of-type(even) {
     background-color: #7cb9e817;
+    border: 0.08em solid rgb(160 160 160);
 }
 
 tbody > tr td:nth-child(1) {
@@ -77,15 +77,6 @@ tbody > tr td:nth-child(4) {
     flex-wrap: wrap;
     column-gap: 0.5em;
     border-width: 0;
-    border: none;
-}
-
-tbody > tr:not(:last-child) td:nth-child(4) {
-    border-bottom: 0.08em solid rgb(160 160 160);
-}
-
-tbody > tr td:nth-child(4) span {
-    width: fit-content;
 }
 
 tbody > tr td:nth-child(3) {
@@ -148,7 +139,13 @@ button {
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
 }
 
-@media (max-width: 620px) {
+span,
+td {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media (max-width: 913px) {
     tr {
         display: flex;
         flex-direction: column;
