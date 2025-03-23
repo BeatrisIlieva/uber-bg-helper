@@ -169,27 +169,27 @@ export const phrases = [
         English: 'Do you have smaller notes?'
     },
     {
-        Translation: 'Не мога да Ви върна ресто.',
+        Translation: 'Нямам да Ви върна ресто.',
         Bulgarian: "Ай дон'т хав ени чейндж.",
         English: "I don't have any change."
     },
     {
-        Translation: 'Не забравяйте вещите си.',
+        Translation: 'Не забравяйте нещата си.',
         Bulgarian: "Дон'т фъргет йор тинкс.",
         English: "Don't forget your things."
     },
     {
-        Translation: 'Беше ми приатно да си поговорим.',
+        Translation: 'Беше приятно да си поговорим.',
         Bulgarian: "Ит'с бийн найс чатинг уит ю.",
         English: "It's been nice chatting with you."
     },
     {
-        Translation: 'Приятно прекарване в София.',
+        Translation: 'Насладете се на своя престой в София.',
         Bulgarian: 'Инждой йор стей ин Софиа.',
         English: 'Enjoy your stay in Sofia.'
     },
     {
-        Translation: 'Моля, пак заповядайте.',
+        Translation: 'Добре дошли сте (моля, пак заповядайте).',
         Bulgarian: 'Ю ар уелкъм.',
         English: "You're welcome."
     },
@@ -203,11 +203,11 @@ export const phrases = [
     },
     {
         Translation: 'Би ли ли сте тук и преди?',
-        Bulgarian: 'Хав ю бийн хиер бифор?',
+        Bulgarian: 'Хав ю бийн хиер бъфор?',
         English: 'Have you been here before?'
     },
     {
-        Translation: 'Харесва ли ви Софиа?',
+        Translation: 'Харесва ли ви София?',
         Bulgarian: 'Хау ду ю лайк Софиа?',
         English: 'How do you like Sofia?'
     },
@@ -325,20 +325,20 @@ export const phrases = [
     },
     {
         Translation:
-            'Позволете ми да Ви помогна да изнесете вещите си от колата.',
+            'Позволете ми да Ви помогна да изнесете принадлежностите си от колата.',
         Bulgarian:
             'Лет ми ассист ю ин тейкинг йор бълонгингс аут ъф дъ кар.',
         English:
             'Let me assist you in taking your belongings out of the car.'
     },
     {
-        Translation: 'Желаете ли да променя градусите на климатика?',
+        Translation: 'Желаете ли да наглася градусите на климатика?',
         Bulgarian: 'Уд ю лайк ми ту аджуст ди еър-къндишънинг?',
         English: 'Would you like me to adjust the air-conditioning?'
     },
     {
         Translation:
-            'Харесва ли Ви музиката или бихте искали да я промяна?',
+            'Тази музика добре ли е за Вас или бихте искали да я промяна?',
         Bulgarian:
             'Из дис мюзик окей фор ю ор уд ю лайк ми то чейндж ит?',
         English:
@@ -353,9 +353,9 @@ export const phrases = [
             'I am currently following the GPS but if you know a better route, please guide me.'
     },
     {
-        Translation: 'Бихте ли искали да мина по най-бързия път?',
+        Translation: 'Бихте ли искали да поема по най-бързия път?',
         Bulgarian: 'Уд ю лайк ми то тейк дъ куикест раут?',
-        English: 'Would you like me to take the quickest route?'
+        English: 'Would you like me to take the quickest routйимн e?'
     },
     {
         Translation:
@@ -367,7 +367,7 @@ export const phrases = [
     },
     {
         Translation:
-            'Да мина ли по прекия път, за да ни спестя време?',
+            'Да поема ли по прекия път, за да ни спестя време?',
         Bulgarian: 'Шуд ай тейк дъ шорткът ту сейв ъс съм тайм?',
         English: 'Should I take the shortcut to save us some time?'
     },
@@ -493,7 +493,7 @@ export const phrases = [
     },
     {
         Translation: 'Как Ви звучи това?',
-        Bulgarian: 'Хау даз дад саунд',
+        Bulgarian: 'Хау даз дад саунд?',
         English: 'How does that sound?'
     },
     {
@@ -507,12 +507,12 @@ export const phrases = [
         English: 'I am learning English.'
     },
     {
-        Translation: 'Може ли да повторите това отново?',
+        Translation: 'Може ли да повторите това отново, моля?',
         Bulgarian: 'Кудж ю рипийт дат плийс?',
         English: 'Could you repeat that please?'
     },
     {
-        Translation: 'Може ли да говорите по-бавно?',
+        Translation: 'Бихте ли могли ли да говорите по-бавно?',
         Bulgarian: 'Кудж ю плийс толк слоуър?',
         English: 'Could you please talk slower?'
     },
@@ -553,7 +553,7 @@ export const phrases = [
     },
     {
         Translation: 'Наистина го оценявам.',
-        Bulgarian: 'Ай рийли апрешиейт ит.',
+        Bulgarian: 'Ай рийли апришиейт ит.',
         English: 'I really appreciate it.'
     },
     {
@@ -649,7 +649,7 @@ export const phrases = [
         Translation:
             'Този квартал е известен с чудесните си ресторанти, планирате ли да опитате някой?',
         Bulgarian:
-            'Дис нейбърхуд ис ноун фор итс грейт рестаурантс, ар ю планинг то чрай ени?',
+            'Дис нейбърхуд ис ноун фор итс грейт рестърънтс, ар ю планинг то чрай ени?',
         English:
             'This neighbordhood is known for its great restaurants, are you planning to try any?'
     },
@@ -773,8 +773,8 @@ export const dictionary = {
     know: 'знам',
     that: 'това/онова',
     place: 'място',
-    do: 'правя',
-    have: 'имам',
+    do: 'правя/използва се също при задаване на въпрос',
+    have: 'имам;използва се и при конструкции за минало време например',
     a: "неопределителен член -> 'I saw a cat.(Видях котка.)'",
     map: 'карта',
     show: 'показвам',
@@ -868,7 +868,7 @@ export const dictionary = {
     "you're": "съкратена форма на 'you are' (ти си)",
     welcome: 'моля/добре дошъл',
     "can't": "съкратена форма на 'cannot' (немога)",
-    would: 'бих',
+    would: 'бих/бихте',
     come: 'идвам',
     back: 'отзад/назад',
     without: 'без',
@@ -883,7 +883,7 @@ export const dictionary = {
     hope: 'надявам се',
     doing: 'сегашно продължително време на глагола правя',
     well: 'добре',
-    does: 'правя (He does/Той прави; She does/Тя прави; It does/То прави)',
+    does: 'правя (He does/Той прави; She does/Тя прави; It does/То прави)/използва се при задаване на въпрос',
     city: 'град',
     compare: 'сравнявам',
     home: 'вкъщи',
@@ -990,7 +990,7 @@ export const dictionary = {
     repeat: 'повтарям',
     talk: 'говоря',
     slower: 'по-бавно',
-    mean: 'имам предвид',
+    mean: 'имам предвид/означава',
     cost: 'разход/цена',
     "that's": "съкратена форма на 'that is' (това е)",
     "i'm": "съкратена форма на 'I am' (Аз съм)",
