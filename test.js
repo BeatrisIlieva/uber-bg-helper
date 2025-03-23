@@ -1348,3 +1348,5 @@ const dict = {
     slow: 'бавно',
     lift: 'превоз'
   }
+
+  console.log(Object.keys(finalDict).length)

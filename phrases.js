@@ -20,7 +20,7 @@ export const phrases = [
         English: 'How are you today?'
     },
     {
-        Translation: 'Мога да взема само четирима пътници',
+        Translation: 'Мога да взема четирима пътници',
         Bulgarian: 'Ай кен тейк фор песинджърс',
         English: 'I can take 4 passengers'
     },
@@ -60,7 +60,7 @@ export const phrases = [
         English: 'It is pretty far away.'
     },
     {
-        Translation: 'Ще стигнем за около 15 мин.',
+        Translation: 'Ще отнеме около 15 мин.',
         Bulgarian: 'Ит уил тейк абоут 15 минитс.',
         English: 'It will take about 15 minutes.'
     },
@@ -82,7 +82,7 @@ export const phrases = [
     },
     {
         Translation: 'Извинете, не Ви разбирам.',
-        Bulgarian: "Сори, ай дон'т. ъндърстанд.",
+        Bulgarian: "Сори, ай дон'т ъндърстанд.",
         English: "Sorry, I don't understand."
     },
     {
@@ -154,7 +154,7 @@ export const phrases = [
         English: "I'll try a different way."
     },
     {
-        Translation: 'Цената е 30лв.',
+        Translation: 'Общата цена е 30лв.',
         Bulgarian: 'Дъ тотал прайс ис търти лев.',
         English: 'The total price is 30lv.'
     },
@@ -821,7 +821,7 @@ export const dictionary = {
     belt: 'колан',
     okay: 'добре',
     if: 'ако',
-    open: 'отворен/отворена/отворено/отворени',
+    open: 'отварям/отворен/отворена/отворено/отворени',
     window: 'прозорец',
     'air-conditioning': 'климатик',
     eat: 'ям',
